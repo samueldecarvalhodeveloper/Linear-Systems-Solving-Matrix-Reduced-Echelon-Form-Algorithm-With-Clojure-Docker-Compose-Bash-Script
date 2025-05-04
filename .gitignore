@@ -1,0 +1,46 @@
+# Clojure-specific
+
+# Leiningen (Clojure build tool) files
+/.lein/
+/target/
+/lib/
+/classes/
+
+# Clojure-related dependencies
+/deps.edn
+/resources/.nrepl-port
+/.cpcache
+
+# REPL-related files
+.nrepl-port
+
+# ClojureScript build artifacts (if using ClojureScript)
+.out/
+.env/
+node_modules/
+
+# JVM-related files
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Emacs project files
+*.swp
+*.swo
+# Vim swap files
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
